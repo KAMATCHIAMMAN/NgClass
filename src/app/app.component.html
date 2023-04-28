@@ -1,0 +1,7 @@
+<div class ="container" [ngSwitch]='Occupation'>
+<p *ngSwitchCase="'teacher'">I am a teacher</p>
+<p *ngSwitchCase= "'student'" >I am a student</p>
+<p *ngSwitchCase= "'parent'" >I am a parent</p>
+<p *ngSwitchCase= "'lawyer'">I am a lawyer</p>
+<p *ngSwitchDefault>This paragraph is default and will be displayed if no case matchs the expression</p>
+</div>
